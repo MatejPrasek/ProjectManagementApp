@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectManagementApp.DAL", "ProjectManagementApp.DAL\ProjectManagementApp.DAL.csproj", "{7F4E2482-4906-446A-A4BE-95BD7F62E293}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectManagementApp.DAL.Tests", "ProjectManagementApp.DAL.Tests\ProjectManagementApp.DAL.Tests.csproj", "{92BBFD5B-C4C0-4D0D-8667-469C1103D0B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectManagementApp.BL", "ProjectManagementApp.BL\ProjectManagementApp.BL.csproj", "{2DB5CAFC-3A7C-42EE-A39E-4344F527D11B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectManagementApp.DAL.Seed", "ProjectManagementApp.DAL.Seed\ProjectManagementApp.DAL.Seed.csproj", "{CBBC0AFA-56D0-4018-AF51-A881CA431B31}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectManagementApp.BL.Tests", "ProjectManagementApp.BL.Tests\ProjectManagementApp.BL.Tests.csproj", "{3018D215-830C-4295-8C27-65EE4B6C233B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AppMockup", "AppMockup", "{C8C2039C-FEFF-4799-B6A7-6EBA27C9B82C}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Documents\FIT\IW5_ICS\mockup\LoginWindow.png = ..\..\..\Documents\FIT\IW5_ICS\mockup\LoginWindow.png
+		AppMockup\LoginWindow.png = AppMockup\LoginWindow.png
+		..\..\..\Documents\FIT\IW5_ICS\mockup\Popups.png = ..\..\..\Documents\FIT\IW5_ICS\mockup\Popups.png
+		AppMockup\Popups.png = AppMockup\Popups.png
+		..\..\..\Documents\FIT\IW5_ICS\mockup\ProjectWindow.png = ..\..\..\Documents\FIT\IW5_ICS\mockup\ProjectWindow.png
+		AppMockup\ProjectWindow.png = AppMockup\ProjectWindow.png
+		..\..\..\Documents\FIT\IW5_ICS\mockup\RegistrationWindow.png = ..\..\..\Documents\FIT\IW5_ICS\mockup\RegistrationWindow.png
+		AppMockup\RegistrationWindow.png = AppMockup\RegistrationWindow.png
+		..\..\..\Documents\FIT\IW5_ICS\mockup\UserActivityWindow.png = ..\..\..\Documents\FIT\IW5_ICS\mockup\UserActivityWindow.png
+		AppMockup\UserActivityWindow.png = AppMockup\UserActivityWindow.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectManagementApp.App", "ProjectManagementApp.App\ProjectManagementApp.App.csproj", "{BFA0B584-74CA-4B1E-858C-0EF5D0D44403}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F4E2482-4906-446A-A4BE-95BD7F62E293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F4E2482-4906-446A-A4BE-95BD7F62E293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F4E2482-4906-446A-A4BE-95BD7F62E293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F4E2482-4906-446A-A4BE-95BD7F62E293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92BBFD5B-C4C0-4D0D-8667-469C1103D0B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92BBFD5B-C4C0-4D0D-8667-469C1103D0B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92BBFD5B-C4C0-4D0D-8667-469C1103D0B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92BBFD5B-C4C0-4D0D-8667-469C1103D0B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DB5CAFC-3A7C-42EE-A39E-4344F527D11B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DB5CAFC-3A7C-42EE-A39E-4344F527D11B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DB5CAFC-3A7C-42EE-A39E-4344F527D11B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DB5CAFC-3A7C-42EE-A39E-4344F527D11B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBBC0AFA-56D0-4018-AF51-A881CA431B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBBC0AFA-56D0-4018-AF51-A881CA431B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBBC0AFA-56D0-4018-AF51-A881CA431B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBBC0AFA-56D0-4018-AF51-A881CA431B31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3018D215-830C-4295-8C27-65EE4B6C233B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3018D215-830C-4295-8C27-65EE4B6C233B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3018D215-830C-4295-8C27-65EE4B6C233B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3018D215-830C-4295-8C27-65EE4B6C233B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFA0B584-74CA-4B1E-858C-0EF5D0D44403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFA0B584-74CA-4B1E-858C-0EF5D0D44403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFA0B584-74CA-4B1E-858C-0EF5D0D44403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFA0B584-74CA-4B1E-858C-0EF5D0D44403}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {913CC3C6-5EE4-4408-89AB-A24A6CAFD8AA}
+	EndGlobalSection
+EndGlobal
